@@ -12,13 +12,17 @@ body {
 .blog-border {
     
     background-color: rgba(250, 250, 250, 0.8);
-    width: 70%;
+    width: 90%; 
     margin: auto;
     border: 1rem solid white;
     padding: 2rem;
     margin-top: 4rem; /*to avoid overlapping with navbar*/
 }
-
+@media (min-width: 600px) {
+    .blog-border {
+        width: 70%; 
+    }
+}
 img {
     height: 60%;
     
