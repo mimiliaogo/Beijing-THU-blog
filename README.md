@@ -4,8 +4,10 @@
 第一次網頁架設經驗。
 ## Probelm Solving
 ### Image Wrong Orientation
-照片從別人的手機傳過來，看起來是正的，放上網頁上竟是反的。
-Solving:
+Photos  appear correctly on the computer but appear in the wrong rotation when you upload them to a website.
+The reason is the photos were from another phone, if he or she rotates on his or her phone, 
+it seems to be on correct side, but actually it isn't.
+#### Solving:
 ```
 jhead file.jpg
 ```
@@ -24,3 +26,11 @@ or
 <p class="col col-md-6">
 ```
 for small screen users
+### Git
+When I new a repository for the github page, I pull the remote from the local in order to push it
+but there is an error saying " refusing to merge unrelated histories ". 
+#### Solving
+```
+git pull --allow-unrelated-histories
+```
+
