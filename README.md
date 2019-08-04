@@ -15,7 +15,7 @@ jhead -norot file.jpg
 ```
 此時照片就會顯示原本的樣子，再用小畫家等等轉正就完成了
 ### Responsive Website 
-In grid system, I should use 
+In bootstrap's grid system, I should use 
 ```
 <img src="images/file.jpg" "class="col col-md-6">
 ```
